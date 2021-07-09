@@ -27,5 +27,5 @@ jobs:
                 decryption_iv: ${{ secrets.DECRYPTION_IV }}
                 client_id: ${{ secrets.CLIENT_ID }}
                 username: ${{ secrets.USERNAME }}
-                checkonly: true
+                checkonly: false
                 manifest_path: manifest/package.xml
