@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+	<types>
+		<members>Nonprofit_Success_Pack</members>
+		<members>npsp__Nonprofit_CRM</members>
+		<members>standard__AllTabSet</members>
+		<members>standard__AppLauncher</members>
+		<members>standard__Chatter</members>
+		<members>standard__Community</members>
+		<members>standard__LightningBolt</members>
+		<members>standard__LightningSales</members>
+		<members>standard__LightningSalesConsole</members>
+		<members>standard__LightningService</members>
+		<members>standard__Marketing</members>
+		<members>standard__OnlineSales</members>
+		<members>standard__Platform</members>
+		<members>standard__Sales</members>
+		<members>standard__SalesforceCMS</members>
+		<members>standard__Service</members>
+		<members>standard__ServiceConsole</members>
+		<members>vs_vem_sonhar</members>
+		<name>CustomApplication</name>
+	</types>
+	
 	<types>
 		<members>Account</members>
 		<members>AIRecordInsight</members>
