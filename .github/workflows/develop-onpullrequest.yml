@@ -29,3 +29,5 @@ jobs:
                 username: ${{ secrets.USERNAME }}
                 checkonly: true
                 manifest_path: manifest/package.xml
+                deploy_testlevel: NoTestRun
+
