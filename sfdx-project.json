@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "vs-common",
+      "default": true
+    }
+  ],
+  "name": "vemsonhar",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "52.0"
+}
