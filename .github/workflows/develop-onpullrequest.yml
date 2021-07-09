@@ -1,17 +1,17 @@
 # Unique name for this workflow
-name: main - on push - deploy on Prod
+name: develop - on pull request - check deployment against QA
 
 # Definition when the workflow should run
 on:
-    push:
+    pull_request:
         branches:
-            - main
+            - develop
 
 # Jobs to be executed
 jobs:
     build-deploy:
         runs-on: ubuntu-latest
-        environment: prod
+        environment: qa
         steps:
 
             # Checkout the code in the pull request
@@ -21,12 +21,12 @@ jobs:
             - name: 'Build and Deploy'
               uses: tiagonnascimento/sfdx-orgdev-build-deploy@v2.1.1
               with:
-                type: 'production'
-                certificate_path: auth-pipelines/serverprod.key.enc
+                type: 'sandbox'
+                certificate_path: auth-pipelines/server.key.enc
                 decryption_key: ${{ secrets.DECRYPTION_KEY }}
                 decryption_iv: ${{ secrets.DECRYPTION_IV }}
                 client_id: ${{ secrets.CLIENT_ID }}
                 username: ${{ secrets.USERNAME }}
-                checkonly: false
+                checkonly: true
                 manifest_path: manifest/package.xml
                 destructive_path: destructive
