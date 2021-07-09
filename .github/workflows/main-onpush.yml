@@ -29,4 +29,3 @@ jobs:
                 username: ${{ secrets.USERNAME }}
                 checkonly: false
                 manifest_path: manifest/package.xml
-                destructive_path: destructive
