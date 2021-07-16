@@ -5,6 +5,7 @@ Este repositório contém os metadados da Org Salesforce da Associação Vem Son
 ## Conteúdo do pacote
 
 Dentro deste pacote, as seguintes funcionalidades estão contidas:
+
 - Configuração do perfil e grupos de permissão associados a Diretoria
 - Configuração da Custom App da Associação Vem Sonhar
 - Configuração de constituintes
@@ -12,6 +13,7 @@ Dentro deste pacote, as seguintes funcionalidades estão contidas:
 ## Passos manuais de pré-deployment
 
 Não são necessários passos de pré-deployment.
+
 ## Passos manuais de pós-deployment
 
 Não são necessários passos de pós-deployment

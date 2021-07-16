@@ -3,31 +3,29 @@ name: develop - on pull request - check deployment against QA
 
 # Definition when the workflow should run
 on:
-    pull_request:
-        branches:
-            - develop
+  pull_request:
+    branches:
+      - develop
 
 # Jobs to be executed
 jobs:
-    build-deploy:
-        runs-on: ubuntu-latest
-        environment: qa
-        steps:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment: qa
+    steps:
+      # Checkout the code in the pull request
+      - name: "Checkout source code"
+        uses: actions/checkout@v2
 
-            # Checkout the code in the pull request
-            - name: 'Checkout source code'
-              uses: actions/checkout@v2
-
-            - name: 'Build and Deploy'
-              uses: tiagonnascimento/sfdx-orgdev-build-deploy@v2.1.1
-              with:
-                type: 'sandbox'
-                certificate_path: auth-pipelines/server.key.enc
-                decryption_key: ${{ secrets.DECRYPTION_KEY }}
-                decryption_iv: ${{ secrets.DECRYPTION_IV }}
-                client_id: ${{ secrets.CLIENT_ID }}
-                username: ${{ secrets.USERNAME }}
-                checkonly: true
-                manifest_path: manifest/package.xml
-                deploy_testlevel: NoTestRun
-
+      - name: "Build and Deploy"
+        uses: tiagonnascimento/sfdx-orgdev-build-deploy@v2.1.1
+        with:
+          type: "sandbox"
+          certificate_path: auth-pipelines/server.key.enc
+          decryption_key: ${{ secrets.DECRYPTION_KEY }}
+          decryption_iv: ${{ secrets.DECRYPTION_IV }}
+          client_id: ${{ secrets.CLIENT_ID }}
+          username: ${{ secrets.USERNAME }}
+          checkonly: true
+          manifest_path: manifest/package.xml
+          deploy_testlevel: NoTestRun
