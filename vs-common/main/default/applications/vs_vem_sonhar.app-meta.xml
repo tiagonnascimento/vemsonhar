@@ -31,8 +31,8 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Vem Sonhar</label>
     <navType>Standard</navType>
-    <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
+    <tabs>standard-Account</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-File</tabs>

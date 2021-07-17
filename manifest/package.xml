@@ -13,11 +13,16 @@
 		<name>CustomObject</name>
 	</types>
 	<types>
+		<members>Account-pt_BR</members>
+		<name>CustomObjectTranslation</name>
+	</types>
+	<types>
 		<members>Vem_Sonhar_UtilityBar</members>
 		<members>vs_Contatos</members>
 		<name>FlexiPage</name>
 	</types>
 	<types>
+		<members>Account-vs_conta_layout</members>
 		<members>Contact-vs_contato_layout</members>
 		<name>Layout</name>
 	</types>
@@ -30,8 +35,17 @@
 		<name>Profile</name>
 	</types>
 	<types>
+		<members>Account.HH_Account</members>
+		<members>Account.Organization</members>
+		<name>RecordType</name>
+	</types>
+	<types>
 		<members>Salutation</members>
 		<name>StandardValueSet</name>
+	</types>
+	<types>
+		<members>pt_BR</members>
+		<name>Translations</name>
 	</types>
 	<version>51.0</version>
 </Package>
