@@ -21,7 +21,7 @@ jobs:
         uses: tiagonnascimento/sfdx-orgdev-build-deploy@v2.1.1
         with:
           type: "sandbox"
-          certificate_path: auth-pipelines/serverprod.key.enc
+          certificate_path: auth-pipelines/server.key.enc
           decryption_key: ${{ secrets.DECRYPTION_KEY }}
           decryption_iv: ${{ secrets.DECRYPTION_IV }}
           client_id: ${{ secrets.CLIENT_ID }}
