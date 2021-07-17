@@ -2,7 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>HH_Account</fullName>
     <active>true</active>
-    <compactLayoutAssignment>NPSP_Household_Account</compactLayoutAssignment>
+    <compactLayoutAssignment>vs_conta_compact_layout</compactLayoutAssignment>
     <description
   >Uma conta representando uma família com um ou mais indivíduos</description>
     <label>Conta Família</label>
