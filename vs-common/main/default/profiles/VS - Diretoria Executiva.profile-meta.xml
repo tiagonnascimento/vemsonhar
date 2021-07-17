@@ -3441,6 +3441,17 @@
     <layoutAssignments>
         <layout>Contact-vs_contato_layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-vs_conta_layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-vs_conta_layout</layout>
+        <recordType>Account.HH_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-vs_conta_layout</layout>
+        <recordType>Account.Organization</recordType>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
