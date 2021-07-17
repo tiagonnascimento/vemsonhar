@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vs_pkl_identidade_genero__c</fullName>
+    <externalId>false</externalId>
+    <label>Identidade de gênero</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cisgenero</fullName>
+                <default>false</default>
+                <label>Cisgenero</label>
+            </value>
+            <value>
+                <fullName>Homossexual</fullName>
+                <default>false</default>
+                <label>Homossexual</label>
+            </value>
+            <value>
+                <fullName>Bissexual</fullName>
+                <default>false</default>
+                <label>Bissexual</label>
+            </value>
+            <value>
+                <fullName>Não Binário</fullName>
+                <default>false</default>
+                <label>Não Binário</label>
+            </value>
+            <value>
+                <fullName>Pansexual</fullName>
+                <default>false</default>
+                <label>Pansexual</label>
+            </value>
+            <value>
+                <fullName>Não deseja informar</fullName>
+                <default>false</default>
+                <label>Não deseja informar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
