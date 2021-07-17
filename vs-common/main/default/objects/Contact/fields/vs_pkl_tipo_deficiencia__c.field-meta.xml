@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vs_pkl_tipo_deficiencia__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de deficiência</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pessoa na cadeira de roda</fullName>
+                <default>false</default>
+                <label>Pessoa na cadeira de roda</label>
+            </value>
+            <value>
+                <fullName>Dislexia</fullName>
+                <default>false</default>
+                <label>Dislexia</label>
+            </value>
+            <value>
+                <fullName>Daltônico</fullName>
+                <default>false</default>
+                <label>Daltônico</label>
+            </value>
+            <value>
+                <fullName>Baixa visão</fullName>
+                <default>false</default>
+                <label>Baixa visão</label>
+            </value>
+            <value>
+                <fullName>Cego</fullName>
+                <default>false</default>
+                <label>Cego</label>
+            </value>
+            <value>
+                <fullName>Surdo</fullName>
+                <default>false</default>
+                <label>Surdo</label>
+            </value>
+            <value>
+                <fullName>Surdo / Cego</fullName>
+                <default>false</default>
+                <label>Surdo / Cego</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

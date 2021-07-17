@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gender__c</fullName>
+    <description
+  >This field is configured in NPSP Settings &gt; Relationships &gt; Relationships as the Gender field. Do not delete this field unless you remove the reference or select another Gender field there.</description>
+    <externalId>false</externalId>
+    <label>Gênero</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Masculino</fullName>
+                <default>false</default>
+                <label>Masculino</label>
+            </value>
+            <value>
+                <fullName>Feminino</fullName>
+                <default>false</default>
+                <label>Feminino</label>
+            </value>
+            <value>
+                <fullName>Prefere não informar</fullName>
+                <default>false</default>
+                <label>Prefere não informar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
