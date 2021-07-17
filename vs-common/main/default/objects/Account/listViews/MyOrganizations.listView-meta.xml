@@ -4,7 +4,11 @@
     <columns>ACCOUNT.NAME</columns>
     <columns>npe01__One2OneContact__c</columns>
     <columns>ACCOUNT.PHONE1</columns>
-    <columns>ACCOUNT.RECORDTYPE</columns>
     <filterScope>Mine</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Organization</value>
+    </filters>
     <label>Minhas Organizações</label>
 </ListView>
