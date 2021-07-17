@@ -12,7 +12,7 @@ Dentro deste pacote, as seguintes funcionalidades estão contidas:
 
 ## Passos manuais de pré-deployment
 
-Não são necessários passos de pré-deployment.
+- Configurar nomenclatura de Household em NPSP Settings
 
 ## Passos manuais de pós-deployment
 
