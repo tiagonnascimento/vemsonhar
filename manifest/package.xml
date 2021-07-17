@@ -9,6 +9,7 @@
 		<name>CustomApplication</name>
 	</types>
 	<types>
+		<members>Account</members>
 		<members>Contact</members>
 		<name>CustomObject</name>
 	</types>
