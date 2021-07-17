@@ -29,5 +29,9 @@
 		<members>VS - Diretoria Executiva</members>
 		<name>Profile</name>
 	</types>
+	<types>
+		<members>Salutation</members>
+		<name>StandardValueSet</name>
+	</types>
 	<version>51.0</version>
 </Package>
