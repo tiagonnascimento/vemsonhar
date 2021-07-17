@@ -4,7 +4,6 @@
     <columns>ACCOUNT.NAME</columns>
     <columns>npe01__One2OneContact__c</columns>
     <columns>ACCOUNT.PHONE1</columns>
-    <columns>ACCOUNT.RECORDTYPE</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>ACCOUNT.RECORDTYPE</field>
