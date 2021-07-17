@@ -43,9 +43,5 @@
 		<members>Salutation</members>
 		<name>StandardValueSet</name>
 	</types>
-	<types>
-		<members>pt_BR</members>
-		<name>Translations</name>
-	</types>
 	<version>51.0</version>
 </Package>
