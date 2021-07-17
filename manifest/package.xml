@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>Contact.vs_contato_compact_layout</members>
+		<name>CompactLayout</name>
+	</types>
+	<types>
 		<members>vs_vem_sonhar</members>
 		<name>CustomApplication</name>
 	</types>
@@ -12,6 +16,10 @@
 		<members>Vem_Sonhar_UtilityBar</members>
 		<members>vs_Contatos</members>
 		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>Contact-vs_contato_layout</members>
+		<name>Layout</name>
 	</types>
 	<types>
 		<members>vs_conta_contato</members>
