@@ -20,6 +20,14 @@
         <type>Flexipage</type>
         <pageOrSobjectType>Contact</pageOrSobjectType>
     </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>vs_home</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
@@ -31,11 +39,13 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Vem Sonhar</label>
     <navType>Standard</navType>
+    <tabs>standard-home</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-File</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Vem_Sonhar_UtilityBar</utilityBar>
 </CustomApplication>
