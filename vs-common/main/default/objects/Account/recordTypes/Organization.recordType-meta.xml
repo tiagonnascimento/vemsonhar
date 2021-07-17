@@ -2,7 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Organization</fullName>
     <active>true</active>
-    <compactLayoutAssignment>NPSP_Organization_Account</compactLayoutAssignment>
+    <compactLayoutAssignment>vs_conta_compact_layout</compactLayoutAssignment>
     <description>Uma conta representando uma organização</description>
     <label>Organização</label>
     <picklistValues>
